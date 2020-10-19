@@ -25,7 +25,7 @@ public class startMail {
         htmlEmail.setFrom("243380920@qq.com","秘密验证码");//你的邮箱地址
         htmlEmail.setAuthentication("243380920@qq.com","nrjkeocwcfnmcbef");//你的邮箱地址和你的stmp密码
         htmlEmail.setTextMsg("验证码");
-        htmlEmail.setMsg("您的验证码为"+code+",请打死都不要告诉别人!!! hahahahahahah  第二次是使用修改 哈哈");//内容最好不要太简单了，不然容易进垃圾邮箱
+        htmlEmail.setMsg("您的验证码为"+code+",请打死都不要告诉别人!!! hahahahahahah  第二次是使用修改 哈哈 第三次");//内容最好不要太简单了，不然容易进垃圾邮箱
         htmlEmail.send();
         return "发送成功";
     }
