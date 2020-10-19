@@ -27,6 +27,7 @@ public class startMail {
         htmlEmail.setTextMsg("验证码");
         htmlEmail.setMsg("您的验证码为"+code+",请打死都不要告诉别人!!! hahahahahahah  第二次是使用修改 哈哈 第三次");//内容最好不要太简单了，不然容易进垃圾邮箱
         htmlEmail.send();
+        //123
         return "发送成功";
     }
 }
