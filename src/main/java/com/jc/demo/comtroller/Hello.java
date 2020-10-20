@@ -14,4 +14,8 @@ public class Hello {
         return "heoo";
     }
     //diyici
+    @RequestMapping("/helloo")
+    public String helloo(){
+        return "heooooooo";
+    }
 }
