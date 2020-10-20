@@ -13,5 +13,4 @@ public class Hello {
     public String hello(){
         return "heoo";
     }
-    //diyici
 }
