@@ -21,8 +21,6 @@ public class startMail {
         htmlEmail.setHostName("smtp.qq.com");//设置邮箱的SMTP服务器
         htmlEmail.setCharset("utf-8");
         htmlEmail.addTo(mailIndex);//目标邮箱地址
-        System.out.println(mailIndex);
-        System.out.println(1231);
         htmlEmail.setFrom("243380920@qq.com","秘密验证码");//你的邮箱地址
         htmlEmail.setAuthentication("243380920@qq.com","nrjkeocwcfnmcbef");//你的邮箱地址和你的stmp密码
         htmlEmail.setTextMsg("验证码");
