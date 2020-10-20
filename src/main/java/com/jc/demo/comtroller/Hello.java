@@ -13,15 +13,4 @@ public class Hello {
     public String hello(){
         return "heoo";
     }
-
-    @RequestMapping("/helloo")
-    public String helloo() {
-        return "heoo";
-    }
-    //diyici
-    @RequestMapping("/hellooo")
-    public String hellooo(){
-        return "heooooooo";
-
-    }
 }
