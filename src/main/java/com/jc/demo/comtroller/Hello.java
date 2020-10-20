@@ -13,4 +13,8 @@ public class Hello {
     public String hello(){
         return "heoo";
     }
+    @RequestMapping("/helloo")
+    public String helloo(){
+        return "heoo";
+    }
 }
